@@ -1,0 +1,145 @@
+*, *::before, *::after{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+html, body{
+	height: 100%;
+}
+body{
+	background: #0D192C;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+.content {
+	position: relative;
+}
+.content-2 {
+	background-color: #15263F;
+	border-radius: 15px;
+	height: 596px;
+	width: 350px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	padding: 24px;
+	position: relative;
+	font-family: 'outfit';
+}
+.content_image {}
+.image-1 {
+	width: 302px;
+	height: 302px;
+	max-width: 100%;
+	border-radius: 10px;
+}
+.content_image-2 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	top: 25px;
+	width: 302px;
+	height: 302px;
+	border-radius: 10px;
+	background-color: #00fff781;
+	opacity: 0;
+	cursor: pointer;
+	transition:  .5s ease;
+}
+.content_image-2:hover{
+	opacity: 1;
+}
+.image-2 {
+	position: relative;
+}
+.content_text {
+	position: relative;
+	border-bottom: 2px solid #2E405A;
+}
+.content_text p:nth-child(1):hover{
+	color: #00FFF8;
+	cursor: pointer;
+}
+.content_text p:nth-child(1){
+	font-weight: 600;
+	font-size: 22px;
+	line-height: 28px;
+	color: #ffff;
+	margin: 14px 0px 24px 0px ;
+}
+.content_text p:nth-child(2){
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 26px;
+	color: #8BACD9;
+	margin: 14px 0px 24px 0px ;
+}
+.content_text p:nth-child(3){
+	color: #00FFF8;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 20px; 
+	display: inline-block;
+}
+.content_text p:nth-child(3):before{
+	content: '';
+	height: 20px;
+	width: 11px;
+	display: inline-block;
+	background: url('../img/icon-ethereum.svg') center no-repeat;
+	margin: 0px 10px 0px 0px;
+}
+.content_text p:nth-child(4){
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 20px;
+	color: #8BACD9;
+	display: inline-block;
+	position: inherit;
+	left: 100px;
+}
+.content_text p:nth-child(4):before{
+	content: '';
+	width: 13px;
+	height: 13px;
+	display: inline-block;
+	background: url('../img/icon-clock.svg') center no-repeat;
+	margin: 0px 10px 0px 0px;
+}
+.content_text_footer{
+	width: 302px;
+	position: relative;
+}
+.content_text_footer p{
+	position: relative;
+	bottom: 5px;
+	left: 0px;
+	display: inline-block;
+	color: #8BACD9;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 20px;
+}
+.content_text_footer span{
+	color: #fff;
+}
+.content_text_footer span:hover{
+	cursor: pointer;
+	color: #00FFF8;
+}
+.image-3 {
+	width: 33px;
+	height: 33px;
+	border-radius: 30px;
+	border: 1px solid #fff;
+	position: relative;
+}
+.image-3:hover{
+	cursor: pointer;
+	border: 2px solid #00FFF8;
+
+}
